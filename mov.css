@@ -1,0 +1,31 @@
+header {
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+
+}
+body {
+    background-color: rgb(219, 219, 58);
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+.articulos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+footer{
+    background-color:rgb(0, 0, 0);
+    color: yellow;
+    text-align:center;
+    padding: 20px;
+    
+}
